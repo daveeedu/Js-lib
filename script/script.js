@@ -118,7 +118,7 @@ let products = [
     },
     {
         product_name: "Apple iPhone 12 Pro Max",
-        product_image: "iphone-12-Pro-Max",
+        product_image: "iPhone-12-Pro-Max",
         Price: "Price: $450"
     },
     {
