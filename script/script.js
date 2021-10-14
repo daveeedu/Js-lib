@@ -160,7 +160,7 @@ products.forEach(e => {
     html += `
         <section class="m-5 productsection " id="productwrapper">
             <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col d-flex flex-wrap justify-content-between ">
+                <div class="col-md-4 col-12 ">
                     <div class="card h-100">
                         <img src="./images/${e.product_image}.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
