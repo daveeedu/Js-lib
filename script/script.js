@@ -158,9 +158,7 @@ let productsection = document.getElementById('productwrapper')
 let html = "";
 products.forEach(e => {
     html += `
-        <section class="m-5 productsection " id="productwrapper">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col-md-4 col-12 ">
+                <div class="col-md-4  ">
                     <div class="card h-100">
                         <img src="./images/${e.product_image}.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -170,28 +168,6 @@ products.forEach(e => {
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="./images/${e.product_image}.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">${e.product_name}</h5>
-                            <p class="card-text">${e.Price}</p>
-                            <a class="btn btn-light btn-outline-secondary" href="#">Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="./images/${e.product_image}.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">${e.product_name}</h5>
-                            <p class="card-text">${e.Price}</p>
-                            <a class="btn btn-light btn-outline-secondary" href="#">Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>         
     `
     console.log(e)
 
